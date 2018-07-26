@@ -1,0 +1,13 @@
+---
+grid:
+  height: 10
+  width: 10
+  obstacles:
+    - x: 3
+      y: 4
+    - x: 5
+      y: 3
+    - x: 2
+      y: 7
+    - x: 3
+      y: 6
