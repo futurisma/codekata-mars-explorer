@@ -85,11 +85,19 @@ public class Rover extends RoverRequest {
      * @param currentPosition
      * @param maxPosition
      * @return
-     */
+     *
     private Integer wrap(Integer currentPosition, Integer maxPosition){
-
-
         return null;
+    }
+     */
+
+    private Integer wrap(Integer currentPosition, Integer maxPosition){
+        if(currentPosition >= maxPosition) {
+          return java.lang.Integer.valueOf(1);
+        }
+        else {
+          return currentPosition;
+        }
     }
 
     public boolean isCrashed() {
